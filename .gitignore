@@ -1,0 +1,20 @@
+*.swp
+*.sw[a-z]
+package-lock.json
+__pycache__
+.pytest_cache
+.env
+.venv
+*.egg-info
+.LAST_BUID
+.idea
+*~
+
+
+# We dont want tsconfig at root
+/tsconfig.json
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+cdk.context.json
